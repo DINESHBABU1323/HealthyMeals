@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    left:0;
+    top: 0;
+    z-index: 100;
+    padding: .5rem 3rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: yellowgreen;
+}
+#navbarSupportedContent a{
+    color: white !important;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid yellowgreen;
+    transition: 0.8s;
+}
+#navbarSupportedContent button{
+    background-color: yellowgreen;
+    width: 5rem;
+    border-radius: 10px;
+}
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(bg-image.jpg) ;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+#home h1{
+    color: white;
+    font-size: 80px;
+    letter-spacing: 4px;
+    text-shadow: 0px 1px 0px #ccc,0px 2px 0px #ccc,0px 4px 0px #ccc,0px 6px 0px #ccc;
+}
+#home p{
+    color: #ccc;
+    justify-content: center;
+}
+
+
+#about{
+    background: linear-gradient(to right ,rgb(245, 231, 109),rgb(208, 221, 29) 100%)
+}
+#about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset 4px 4px 10px rgba(204, 169, 169, 0.39);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+h5{
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+
+#foods{
+    background: linear-gradient(to right ,rgb(111, 119, 231),rgb(58, 104, 230) 100%)
+}
+#foods h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+.card img{
+    border-radius: 15px !important;
+}
+#foods .card{
+    min-height: 40vh;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset 4px 4px 10px rgba(204, 169, 169, 0.39);
+}
+#foods a{
+    background-color: black;
+    color: yellowgreen;
+}
+#foods a:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+#foods .card:hover{
+    min-height: 40vh;
+    border: none;
+    box-shadow:4px 4px 4px rgba(204, 169, 169, 0.39),inset 5px 5px 10px rgba(0,0,0, 0.3);
+}
+
+
+#contact{
+    background: linear-gradient(to right ,rgb(46, 226, 196),rgb(113, 224, 191) 100%)
+}
+#contact img{
+    border-radius: 15px;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset 4px 4px 10px rgba(204, 169, 169, 0.39);
+}
+#contact button:hover{
+    background-color: yellowgreen;
+    color: black !important;
+}
+#contact button{
+    border: none;
+    background-color: black;
+    color: yellowgreen !important;
+}
+
+#form .form-control {
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.3);
+}
+#form button {
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.3);
+}
+footer .row .col{
+    padding: 0 !important;
+}
+footer .row{
+    background-color: black !important;
+}
